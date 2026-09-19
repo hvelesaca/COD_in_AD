@@ -31,3 +31,6 @@ https://www.kaggle.com/datasets/hvelesaca/cds2k-dataset-supervised
 
 ##  Dataset used for unsupervised techniques
 https://www.kaggle.com/datasets/hvelesaca/cds2k-dataset-unsupervised
+
+##  Results
+The qualitative mask results are available in the folder [results](results).
