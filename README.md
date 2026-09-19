@@ -25,11 +25,15 @@ Industrial anomaly detection faces a fundamental challenge: surface defects ofte
 | COD-based | CHNet | [GitHub](https://github.com/akuan1234/CHNet) | Adam | 5e-5 | 24 | 180 | Adjust LR |
 | COD-based | ARNet-v2 | [GitHub](https://github.com/akuan1234/ARNet-v2) |Adam | 5e-5 | 8 | 200 | Adjust LR |
 | COD-based | AINet | [GitHub](https://github.com/hvelesaca/AINet) | AdamW | 1e-4 | 16 | 150 | CosineAnnealingLR |
-## Dataset used for supervised techniques
+
+## Datasets 
+
+### Used for supervised techniques
+It is necessary to separate the datasets because the file hierarchy used by camouflage-based techniques differs from that used by anomaly-based techniques.
+
 https://www.kaggle.com/datasets/hvelesaca/cds2k-dataset-supervised
 
-
-##  Dataset used for unsupervised techniques
+### Used for unsupervised techniques
 https://www.kaggle.com/datasets/hvelesaca/cds2k-dataset-unsupervised
 
 ##  Results
