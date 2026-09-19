@@ -21,12 +21,13 @@ Industrial anomaly detection faces a fundamental challenge: surface defects ofte
 | COD-based | HitNet | [GitHub](https://github.com/HUuxiaobin/HitNet) | AdamW | 1e-4 | 8 | 150 | Custom (Adjust LR) |
 | COD-based | PCNet | [GitHub](https://github.com/yjybuaa/PlantCamo) | AdamW | 1e-4 | 8 | 150 | Custom (Adjust LR) |
 | COD-based | CTF-Net | [GitHub](https://github.com/zcc0616/CTF-Net) | Adam | 1e-4 | 12 | 100 | Custom (Poly LR) |
-| COD-based | ARNet | [GitHub](https://github.com/akuan1234/ARNet) | — | — | — | — | — |
-| COD-based | CHNet | [GitHub](https://github.com/akuan1234/CHNet) | — | — | — | — | — |
-| COD-based | ARNet-v2 | [GitHub](https://github.com/akuan1234/ARNet-v2) | — | — | — | — | — |
+| COD-based | ARNet | [GitHub](https://github.com/akuan1234/ARNet) | Adam | 5e-5 | 16 | 150 | Adjust LR |
+| COD-based | CHNet | [GitHub](https://github.com/akuan1234/CHNet) | Adam | 5e-5 | 24 | 180 | Adjust LR |
+| COD-based | ARNet-v2 | [GitHub](https://github.com/akuan1234/ARNet-v2) |Adam | 5e-5 | 8 | 200 | Adjust LR |
 | COD-based | AINet | [GitHub](https://github.com/hvelesaca/AINet) | AdamW | 1e-4 | 16 | 150 | CosineAnnealingLR |
 ## Dataset used for supervised techniques
 https://www.kaggle.com/datasets/hvelesaca/cds2k-dataset-supervised
+
 
 ##  Dataset used for unsupervised techniques
 https://www.kaggle.com/datasets/hvelesaca/cds2k-dataset-unsupervised
