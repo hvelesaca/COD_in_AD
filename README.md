@@ -5,9 +5,9 @@ Industrial anomaly detection faces a fundamental challenge: surface defects ofte
 
 | Category | Technique | Repository | Optimizer | LR | BS | Epochs | Scheduler |
 |---|---|---|---|---:|---:|---:|---|
-| AD-based | DRAEM | [GitHub](https://github.com/VitjanZ/DRAEM) | — | — | — | — | — |
-| AD-based | MMR | [GitHub](https://github.com/zhangzilongc/MMR) | — | — | — | — | — |
-| AD-based | MemSeg | [GitHub](https://github.com/TooTouch/MemSeg) | — | — | — | — | — |
+| AD-based | DRAEM | [GitHub](https://github.com/VitjanZ/DRAEM) | Adam | 1e-3 | 8 | 700 | MultiStepLR |
+| AD-based | MMR | [GitHub](https://github.com/zhangzilongc/MMR) | AdamW | 5e-2 | 64 | 200 | — |
+| AD-based | MemSeg | [GitHub](https://github.com/TooTouch/MemSeg) | AdamW | 3e-2 | 8 | 1000 | CosineAnnealingWR |
 | AD-based | CLIP | [GitHub](https://github.com/maticFuc/AnomalyVFM) | — | — | — | — | — |
 | AD-based | DINOv2 | [GitHub](https://github.com/maticFuc/AnomalyVFM) | — | — | — | — | — |
 | AD-based | DINOv3 | [GitHub](https://github.com/maticFuc/AnomalyVFM) | — | — | — | — | — |
